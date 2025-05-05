@@ -147,7 +147,7 @@ if __name__ == '__main__':
     transform_train = transform.Compose([
         transform.ToPILImage(),
         transform.Resize((args.image_size, args.image_size)),
-        transform.RandomHorizontalFlip(p=0),  # 师弟一旦加上病灶信息这里就不能使用数据增强,因为一旦数据增强就对应不上了
+        transform.RandomHorizontalFlip(p=0),
         transform.RandomVerticalFlip(p=0),
         transform.RandomResizedCrop(args.image_size),
         transform.ToTensor(),

@@ -1,0 +1,13 @@
+Class 0: 	 Precision: 0.9226, Recall: 0.9475, Specificity: 0.8703, F1:0.9349, Accuracy :0.9182
+Class 1: 	 Precision: 0.7102, Recall: 0.7181, Specificity: 0.9231, F1:0.7141, Accuracy :0.8805
+Class 2: 	 Precision: 0.6398, Recall: 0.5628, Specificity: 0.9705, F1:0.5988, Accuracy :0.9358
+Class 3: 	 Precision: 0.7187, Recall: 0.7770, Specificity: 0.9775, F1:0.7468, Accuracy :0.9637
+Class 4: 	 Precision: 0.8750, Recall: 0.1795, Specificity: 0.9995, F1:0.2979, Accuracy :0.9847
+
+Fusion Matrix:
+[1.264e+03 6.400e+01 5.000e+00 1.000e+00 0.000e+00]
+[102. 321.  23.   1.   0.]
+[  4.  60. 103.  16.   0.]
+[  0.   6.  26. 115.   1.]
+[ 0.  1.  4. 27.  7.]
+Test loss: 0.0192, acc: 0.8415, kappa: 0.7116, all_precision: 0.8395,all_recall: 0.8415, all_specificity: 0.8995, all_f1: 0.8359, AUC:0.9514, Total elapsed time: 51.7636 
